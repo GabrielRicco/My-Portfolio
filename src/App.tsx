@@ -1,24 +1,25 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
+import { GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
 import { Header } from "./components/Header";
+import { Home } from "./components/Home";
 
 export function App() {
   return (
-    <div className="px-28">
-      <Header />
+    <>
+      <div className="px-64">
+        <Header />
 
-      <div className="h-[500px] w-full flex items-center justify-between p-48">
-        <section>
-          <h1 className="text-5xl">Hi Everyone! 👋</h1>
-          <h2 className="text-6xl">I'm <span className="text-blue-800">Web Development</span></h2>
-        </section>
-
-        <section>
-          <Avatar>
-            <AvatarImage className="rounded-full w-64" src="https://github.com/gabrielricco.png" />
-            <AvatarFallback className="rounded-full w-64">GR</AvatarFallback>
-          </Avatar>
-        </section>
+        <Home />
       </div>
-    </div>
+
+      <footer className="fixed bottom-0 flex justify-between w-full px-64 bg-secondary h-14 items-center">
+        <p>Designed and Developed by Gabriel Ricco 😎</p>
+
+        <div className="flex gap-10">
+          <a className="hover:scale-125 transition-transform" href="https://github.com/gabrielricco" target="_blank"><GithubLogo size={26} /></a>
+          <a className="hover:scale-125 transition-transform"  href="https://instagram.com/gabrielricco" target="_blank"><InstagramLogo size={26} /></a>
+          <a className="hover:scale-125 transition-transform"  href="https://linkedin/in/gabrielricco" target="_blank"><LinkedinLogo size={26} /></a>
+        </div>
+      </footer>
+    </>
   )
 }
