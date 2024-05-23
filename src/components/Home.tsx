@@ -15,7 +15,7 @@ export function Home() {
                     <h3 className="text-blue-600 font-bold text-6xl max-lg:text-4xl">Web Development</h3>
                     <h4 className="text-4xl">Front-end | Back-end</h4>
                     <div className="flex mt-7 gap-4">
-                        <Button className="hover:scale-105 transition-transform"><FileArrowDown size={22} />Download CV</Button>
+                        <a href="/Profile.pdf" download><Button className="hover:scale-105 transition-transform"><FileArrowDown size={22} />Download CV</Button></a>
                         <a href="https://github.com/gabrielricco" target="_blank">
                             <Button className="hover:scale-105 transition-transform" variant='secondary'><GitBranch size={22} />Github</Button>
                         </a>
