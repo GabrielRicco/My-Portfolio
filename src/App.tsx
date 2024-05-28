@@ -4,7 +4,6 @@ import { Footer } from './components/Footer';
 import { Home } from './components/Home';
 import { About } from './components/About';
 import { Projects } from './components/Projects';
-import './transition.css';
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
 
@@ -40,7 +39,7 @@ function AppRoutes() {
 export function App() {
   return (
     <Router>
-      <div className="px-64 max-md:p-0">
+      <div className="px-64 max-md:p-0 max-md:pb-60">
         <Header />
         <AppRoutes />
       </div>
