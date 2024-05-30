@@ -2,7 +2,7 @@ import { GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
 
 export function Footer() {
     return (
-      <footer className="fixed bottom-0 flex justify-between w-full px-64 bg-secondary h-14 items-center max-md:p-0 max-lg:flex-col max-lg:h-20 max-lg:justify-center max-lg:gap-3">
+      <footer className="fixed bottom-0 flex justify-between w-full px-64 bg-secondary h-14 items-center max-lg:p-0 max-lg:flex-col max-lg:h-20 max-lg:justify-center max-lg:gap-3 max-2xl:px-40">
         <p>Designed and Developed by Gabriel Ricco 😎</p>
 
         <div className="flex gap-10">

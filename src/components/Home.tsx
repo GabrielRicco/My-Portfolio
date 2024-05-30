@@ -4,8 +4,8 @@ import { FileArrowDown, GitBranch } from "phosphor-react";
 
 export function Home() {
     return (
-        <div className="h-[500px] w-full flex items-center justify-between p-6 mt-7 max-lg:flex-col max-lg:h-full max-lg:order-last">
-            <section className="flex flex-col h-5/6 justify-between p-8 mt-20 max-lg:order-2">
+        <div className="h-[500px] w-full flex items-center justify-between p-6 mt-7 max-lg:flex-col max-lg:h-full max-lg:order-last max-2xl:m-0">
+            <section className="flex flex-col h-5/6 justify-between p-8 mt-20 max-lg:order-2 max-2xl:m-0">
                 <div className="flex flex-col gap-3">
                     <h1 className="text-5xl max-lg:text-2xl">Hi Everyone! 👋</h1>
                     <h2 className="text-6xl max-lg:text-4xl">I'm <span className="text-blue-800">Gabriel Ricco</span></h2>

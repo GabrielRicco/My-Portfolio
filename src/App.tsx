@@ -39,7 +39,7 @@ function AppRoutes() {
 export function App() {
   return (
     <Router>
-      <div className="px-64 max-md:p-0 max-md:pb-60">
+      <div className="px-64 max-lg:p-0 max-lg:pb-60 max-2xl:px-40">
         <Header />
         <AppRoutes />
       </div>
