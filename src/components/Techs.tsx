@@ -6,7 +6,7 @@ import { SiSpring } from "react-icons/si";
 
 export function Techs() {
     return (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 w-3/4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
             <Button className="hover:scale-110 transition-transform h-28 w-36 flex flex-col" size="icon" variant='secondary'><FaReact size={50} /> React</Button>
             <Button className="hover:scale-110 transition-transform h-28 w-36 flex flex-col" size="icon" variant='secondary'><FaVuejs size={50} /> Vue</Button>
             <Button className="hover:scale-110 transition-transform h-28 w-36 flex flex-col" size="icon" variant='secondary'><FaHtml5 size={50} /> HTML</Button>
