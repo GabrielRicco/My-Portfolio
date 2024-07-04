@@ -1,26 +1,32 @@
 export const projects = [
     {
         name: "Dev Finance",
-        description: "Sistema de controle de finanças onde você cadastra uma transação que pode ser tanto entrada de dinheiro como saída do mesmo, tendo uma tabela para visualização",
+        description: "Finance control system where you register a transaction that can be either an inflow of money or an outflow of money, with a table for visualization",
         photo: "./photos/devfinance.png",
         code: "https://github.com/GabrielRicco/Projeto-final-maratona-discover"
     },
     {
         name: "Doctor Care",
-        description: "Landing page de uma assistência médica, onde é responsiva e leve, com informações úteis e breves para melhor experiência do usuário",
+        description: "Landing page for healthcare, which is responsive and lightweight, with useful and brief information for a better user experience",
         photo: "./photos/doctorcare.png",
         code: "https://github.com/GabrielRicco/doctorcare"
     },
     {
-        name: "Lista de Presença",
-        description: "Meu primeiro contato com a tecnologia React, fiz um sistema de lista de presença, ao colocar o nome de alguém, cria um card com o nome e a hora",
+        name: "Attendance list",
+        description: "My first contact with React technology, I created an attendance list system, when entering someone's name, it creates a card with the name and time",
         photo: "./photos/listapresenca.png",
         code: "https://github.com/GabrielRicco/lista-presenca"
     },
     {
         name: "Food Explorer",
-        description: "Feito em Vue, um template de sistema de restaurante, onde clientes podem fazer pedidos, e admnistradores pode cadastrar, excluir ou editar pratos",
+        description: "Made in Vue, a restaurant system template, where customers can place orders, and administrators can register, delete or edit dishes",
         photo: "./photos/foodexplorer.png",
         code: "https://github.com/GabrielRicco/Food-Explorer"
+    },
+    {
+        name: "Tennis rankings",
+        description: "Example of a ranking system, where players are drawn, forming rounds, where they accumulate points with each victory, moving up in the ranking",
+        photo: "./photos/tenisranking.png",
+        code: "https://github.com/GabrielRicco/Ranking-Tenistas"
     }
 ]
